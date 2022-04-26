@@ -65,3 +65,11 @@ Document Object Model içeriklerini incelerken karşınıza çoğu zaman belge, 
 * **Çağrılmak**: Bir kod parçacığında herhangi bir komutun aktif edilebilmesi için DOM ağacı içerisinde nesnelerin hiyerarşik bir sıra izlenerek çağrılması gerekir. Bu  sırada önce doküman, ardından ‘’root element’’, ardından element sırasıyla ‘’çağrılır’’. Çağrılmak, işlev göstermesi için aktif edilmek anlamına gelir.
 * **DOM Düğüm Ağacı (DOM Node Tree)**: DOM yapısının hiyerarşik bir ilişki içerisinde belge ve nesneleri birbirine bağladığı yapıdır. Bu yapı içerisinde Document, DocumentType, DocumentFragment, Element, Text, ProcessingInstruction, Comment gibi nesnelerin tümü bulunur ve düğümler halinde birbirine bağlanır. Ağacın her bir düğümünde düğümün türü ve bu düğüm ile izin verilen alt öğeler bulunur. Bu da hiyerarşik yapı ile erişilebilecek alanları ayırır. DOM Düğüm Ağacı, kaynak öğenin ne olduğuna göre çeşitli isimler alabilir. Örneğin kaynak (root) öğe eğer bir Document elementi ise, ağaç ‘’Document Tree’’ olarak kavramsallaştırılır. Eğer kaynak (root) element ‘’Shadow’’ ise, ağaç ‘’Shadow Tree’’ olarak kavramsallaştırılır.
 * **DOM Metotları**: DOM ile gerçekleştirebileceğiniz eylemlere metot adı verilir. Örneğin HTML öğeleri üzerinde yapabileceğiniz işlemlerin her biri birer metottur.
+ 
+ 
+## jQuery'de DOM
+jQuery kullanarak HTML elementlerini daha kolay manipüle edebilirsiniz. Örnek olarak JavaScript kullanarak bir elementi ID'sine göre almanın jQuery ile farkı aşağıdaki gibidir.
+ > JavaScript: document.getElementById(id);
+ > jQuery: $("#id");
+ 
+ Gördüğünüz gibi jQuery'de bir elementi seçmek JavaScript'te olduğundan daha kısa ve kolaydır.
