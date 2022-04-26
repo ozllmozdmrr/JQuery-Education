@@ -74,3 +74,17 @@ jQuery kullanarak HTML elementlerini daha kolay manipüle edebilirsiniz. Örnek 
   `jQuery: $("#id"); `
  
  Gördüğünüz gibi jQuery'de bir elementi seçmek JavaScript'te olduğundan daha kısa ve kolaydır.
+ 
+ 
+ ## jQuery css() Fonksiyonu
+ * Css("özellik","değer") şeklinde kullanılan bu fonksiyon, bir elementin stilleri ile ilgili eklemeler ve değişiklikler yapmamızı sağlar.
+ 
+ `<p> Hello World </p>`
+ * CSS <style> :
+ 
+![style](https://user-images.githubusercontent.com/97258275/165309141-d602fa42-74c6-4b33-954a-a62bc25bceec.png)
+
+ * JQuery <script>
+ 
+ ![Adsız](https://user-images.githubusercontent.com/97258275/165309885-bfd93f91-3e09-4140-ade8-9d1e9e043b74.png)
+
