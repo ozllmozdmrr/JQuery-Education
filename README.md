@@ -69,7 +69,7 @@ Document Object Model içeriklerini incelerken karşınıza çoğu zaman belge, 
  
 ## jQuery'de DOM
 jQuery kullanarak HTML elementlerini daha kolay manipüle edebilirsiniz. Örnek olarak JavaScript kullanarak bir elementi ID'sine göre almanın jQuery ile farkı aşağıdaki gibidir.
- > JavaScript: document.getElementById(id);                                                                
- > jQuery: $("#id");
+ > ` JavaScript: document.getElementById(id); `                                                               
+ > `jQuery: $("#id"); `
  
  Gördüğünüz gibi jQuery'de bir elementi seçmek JavaScript'te olduğundan daha kısa ve kolaydır.
