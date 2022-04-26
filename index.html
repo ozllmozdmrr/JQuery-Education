@@ -7,13 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-
+    <h1 id="header">Başlık</h1>
     <!-- Jquery Eklendi -->
     <!-- <script src="jquery-3.6.0.min.js"></script> --> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
             //JQuery Kodları
+            $("#header").hide();   // .hide metodunu kullanarak header kısmını ekrandan silmiş olduk. .show metodu ile gizlenen kısmı geri gösteririz.
+            jQuery("#header").show();  // farklı bir seçici kullanımı. "JQ" harfler büyük olmalı. 
         });
     </script>
 
