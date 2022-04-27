@@ -47,73 +47,7 @@ Buna ek olarak , JQuery'nin hemen hemen her görev için eklentirleri vardır.
 
 ## NEDEN CDN ?
  * Birçok kullanıcı Google veya Microsoft'tan JQuery'i indirdi. Sonuç olarak, sitenizi ziyaret ettiklerinde önbellekten yüklenir ve bu da hızlı yükleme süresi sağlar.
-* Ayrıca, çoğu CDN, bir kullanıcı ondan bir dosya istediğinde, kendisine en yakın sunucudan sunulmasını ve böylece daha hızlı yüklenmesine olanak sağlar. 
+ * Ayrıca, çoğu CDN, bir kullanıcı ondan bir dosya istediğinde, kendisine en yakın sunucudan sunulmasını ve böylece daha hızlı yüklenmesine olanak sağlar. 
 
-## DOM NEDİR?
- 
- Document Object Model (DOM) ile İlgili Temel Kavramlar
-Document Object Model içeriklerini incelerken karşınıza çoğu zaman belge, nesne, ‘’çağrılmak’’gibi kavramlar çıkacak. İçeriğin en keyifli kısımlarına geçmeden önce bu kelimelerin ne anlama geldiğini netleştirelim.
- 
- 
- 
- ![resim_2022-04-26_152306287](https://user-images.githubusercontent.com/97258275/165299009-899b65f6-083e-437e-b730-aab813b08fa0.png)
-
- 
- 
-* **Belge**: Document Object Model’de belge, HTML kodu ile hazırladığınız sayfanın ta kendisidir.
-* **Nesne**: Document Object Model’de nesne, HTML kodu ile hazırladığınız sayfanın içine yerleştirilen öğelerin her biridir.
-* **Çağrılmak**: Bir kod parçacığında herhangi bir komutun aktif edilebilmesi için DOM ağacı içerisinde nesnelerin hiyerarşik bir sıra izlenerek çağrılması gerekir. Bu  sırada önce doküman, ardından ‘’root element’’, ardından element sırasıyla ‘’çağrılır’’. Çağrılmak, işlev göstermesi için aktif edilmek anlamına gelir.
-* **DOM Düğüm Ağacı (DOM Node Tree)**: DOM yapısının hiyerarşik bir ilişki içerisinde belge ve nesneleri birbirine bağladığı yapıdır. Bu yapı içerisinde Document, DocumentType, DocumentFragment, Element, Text, ProcessingInstruction, Comment gibi nesnelerin tümü bulunur ve düğümler halinde birbirine bağlanır. Ağacın her bir düğümünde düğümün türü ve bu düğüm ile izin verilen alt öğeler bulunur. Bu da hiyerarşik yapı ile erişilebilecek alanları ayırır. DOM Düğüm Ağacı, kaynak öğenin ne olduğuna göre çeşitli isimler alabilir. Örneğin kaynak (root) öğe eğer bir Document elementi ise, ağaç ‘’Document Tree’’ olarak kavramsallaştırılır. Eğer kaynak (root) element ‘’Shadow’’ ise, ağaç ‘’Shadow Tree’’ olarak kavramsallaştırılır.
-* **DOM Metotları**: DOM ile gerçekleştirebileceğiniz eylemlere metot adı verilir. Örneğin HTML öğeleri üzerinde yapabileceğiniz işlemlerin her biri birer metottur.              
-  https://ozllmozdmrr.medium.com/javascript-html-dom-439c508c6018  ---> Medium' da daha açıklayıcı bir anlatım mevcut.
- 
- 
-## jQuery'de DOM
-jQuery kullanarak HTML elementlerini daha kolay manipüle edebilirsiniz. Örnek olarak JavaScript kullanarak bir elementi ID'sine göre almanın jQuery ile farkı aşağıdaki gibidir.                                                                                                           
-  ` JavaScript: document.getElementById(id); `                                                               
-  `jQuery: $("#id"); `
- 
- Gördüğünüz gibi jQuery'de bir elementi seçmek JavaScript'te olduğundan daha kısa ve kolaydır.
- 
- 
- ## jQuery css() Metodu
- * Css("özellik","değer") şeklinde kullanılan bu fonksiyon, bir elementin stilleri ile ilgili eklemeler ve değişiklikler yapmamızı sağlar.
- 
- `<p> Hello World </p>`
- * CSS <style> :
- 
-![style](https://user-images.githubusercontent.com/97258275/165309141-d602fa42-74c6-4b33-954a-a62bc25bceec.png)
-
- * JQuery <script>
- 
- ![Adsız](https://user-images.githubusercontent.com/97258275/165309885-bfd93f91-3e09-4140-ade8-9d1e9e043b74.png)
-
- 
- ## JQuery children() Metodu
- 
- * Children seçilen objenin alt nesnelerini seçmek için kullanırız.
- * Yazacağımız aşağıdaki kod ile tüm span elementleri seçilmiş olur.
-
-  `<p> Sonunda yaz geldi. <span> Eğlence zamanı. </span><em> Yaşasın. <em></p>`
- 
- ![Adsız](https://user-images.githubusercontent.com/97258275/165504271-d511dfc4-bbc5-4ab1-a338-cbf1ee3d92f5.png)
- 
- 
- * Bunlardan sadece belirleyeceğimiz özellikteki seçilsin istiyorsak children("nesne özelliği") şeklinde kullanabiliriz.
- 
- ![Adsız](https://user-images.githubusercontent.com/97258275/165504693-2e21250a-81fc-4492-b0a5-083f379a1479.png)
-
- ## JQuery parent() Metodu 
- 
- * Bir elementin ait olduğu bir üst elementi belirtmemize yarar.
- 
-![Adsız](https://user-images.githubusercontent.com/97258275/165505999-3e26edc8-ab07-4252-90bd-3802a92387fb.png)
- 
- ## JQuery siblings() Metodu
- * siblings() metodu seçilen eleman tüm kardeş elemanları döndürür.
- * Kardeş elemanlar aynı ebeveyne paylaşan unsurlardır.
-<!-- İpucu: kullan prev() veya next() sadece önceki veya bir sonraki kardeş elemanları arama daraltmak için bir yöntem.  -->
- 
- 
-
+ ---> [JQuery'de DOM ve Methodlar](https://github.com/ozllmozdmrr/JQuery-Education/wiki/JQUERY-'-de-DOM---Css()---Children()---Parent()---Siblings())  
  
