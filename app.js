@@ -5,9 +5,10 @@ $(function(){
 
     //Parent
     // $("span").parent().css("color","orange")
-
     //Siblings()
     // $("em").siblings().css("color","orange");
+
+    
 
     $("button").click(function(){
         //$("h1").addClass("aktif");
