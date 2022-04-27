@@ -76,7 +76,7 @@ jQuery kullanarak HTML elementlerini daha kolay manipüle edebilirsiniz. Örnek 
  Gördüğünüz gibi jQuery'de bir elementi seçmek JavaScript'te olduğundan daha kısa ve kolaydır.
  
  
- ## jQuery css() Fonksiyonu
+ ## jQuery css() Metodu
  * Css("özellik","değer") şeklinde kullanılan bu fonksiyon, bir elementin stilleri ile ilgili eklemeler ve değişiklikler yapmamızı sağlar.
  
  `<p> Hello World </p>`
@@ -88,3 +88,32 @@ jQuery kullanarak HTML elementlerini daha kolay manipüle edebilirsiniz. Örnek 
  
  ![Adsız](https://user-images.githubusercontent.com/97258275/165309885-bfd93f91-3e09-4140-ade8-9d1e9e043b74.png)
 
+ 
+ ## JQuery children() Metodu
+ 
+ * Children seçilen objenin alt nesnelerini seçmek için kullanırız.
+ * Yazacağımız aşağıdaki kod ile tüm span elementleri seçilmiş olur.
+
+  `<p> Sonunda yaz geldi. <span> Eğlence zamanı. </span><em> Yaşasın. <em></p>`
+ 
+ ![Adsız](https://user-images.githubusercontent.com/97258275/165504271-d511dfc4-bbc5-4ab1-a338-cbf1ee3d92f5.png)
+ 
+ 
+ * Bunlardan sadece belirleyeceğimiz özellikteki seçilsin istiyorsak children("nesne özelliği") şeklinde kullanabiliriz.
+ 
+ ![Adsız](https://user-images.githubusercontent.com/97258275/165504693-2e21250a-81fc-4492-b0a5-083f379a1479.png)
+
+ ## JQuery parent() Metodu 
+ 
+ * Bir elementin ait olduğu bir üst elementi belirtmemize yarar.
+ 
+![Adsız](https://user-images.githubusercontent.com/97258275/165505999-3e26edc8-ab07-4252-90bd-3802a92387fb.png)
+ 
+ ## JQuery siblings() Metodu
+ * siblings() metodu seçilen eleman tüm kardeş elemanları döndürür.
+ * Kardeş elemanlar aynı ebeveyne paylaşan unsurlardır.
+<!-- İpucu: kullan prev() veya next() sadece önceki veya bir sonraki kardeş elemanları arama daraltmak için bir yöntem.  -->
+ 
+ 
+
+ 
