@@ -58,6 +58,6 @@ Buna ek olarak , JQuery'nin hemen hemen her görev için eklentirleri vardır.
  
  
  
- 
+
  
  
