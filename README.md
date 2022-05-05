@@ -49,5 +49,5 @@ Buna ek olarak , JQuery'nin hemen hemen her görev için eklentirleri vardır.
  * Birçok kullanıcı Google veya Microsoft'tan JQuery'i indirdi. Sonuç olarak, sitenizi ziyaret ettiklerinde önbellekten yüklenir ve bu da hızlı yükleme süresi sağlar.
  * Ayrıca, çoğu CDN, bir kullanıcı ondan bir dosya istediğinde, kendisine en yakın sunucudan sunulmasını ve böylece daha hızlı yüklenmesine olanak sağlar. 
 
- ---> [JQuery'de DOM ve Methodlar](https://github.com/ozllmozdmrr/JQuery-Education/wiki/JQUERY-'-de-DOM---Css()---Children()---Parent()---Siblings())
+ ---> [JQuery'de DOM ve Methodlar](https://github.com/ozllmozdmrr/JQuery-Education/wiki/JQUERY-'-de-DOM---Css()---Children()---Parent()---Siblings())                   
  ---> [Sözde Sınıf Seçicileri nth-child](https://github.com/ozllmozdmrr/JQuery-Education/wiki/Sözde-Sınıf-Seçiciler--:nth-child())
