@@ -54,7 +54,6 @@ Buna ek olarak , JQuery'nin hemen hemen her görev için eklentirleri vardır.
  * Birçok kullanıcı Google veya Microsoft'tan JQuery'i indirdi. Sonuç olarak, sitenizi ziyaret ettiklerinde önbellekten yüklenir ve bu da hızlı yükleme süresi sağlar.
  * Ayrıca, çoğu CDN, bir kullanıcı ondan bir dosya istediğinde, kendisine en yakın sunucudan sunulmasını ve böylece daha hızlı yüklenmesine olanak sağlar. 
 
-
  
  
  
